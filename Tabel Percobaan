@@ -1,7 +1,6 @@
 ## Tabel Percobaan 1 — Seleksi Beasiswa
 
 | No | Aktif | Nilai Baik | Tidak Melanggar | Hasil | Output |
-|---|---|---|---|---|---|
 | 1 | True | True | True | True | Mahasiswa LULUS beasiswa |
 | 2 | True | True | False | False | Mahasiswa TIDAK LULUS beasiswa |
 | 3 | True | False | True | False | Mahasiswa TIDAK LULUS beasiswa |
@@ -11,7 +10,6 @@
 ## Tabel Percobaan 2 — Kelulusan Praktikum
 
 | No | Hadir | Mengumpulkan Tugas | Nilai Praktikum | Hasil | Output |
-|---|---|---|---|---|---|
 | 1 | True | True | True | True | Mahasiswa LULUS praktikum |
 | 2 | True | True | False | False | Mahasiswa TIDAK LULUS praktikum |
 | 3 | True | False | True | False | Mahasiswa TIDAK LULUS praktikum |
@@ -21,7 +19,6 @@
 ## Tabel Percobaan 3 — Persyaratan Mengikuti Ujian
 
 | No | Terdaftar | Hadir Minimal | Mengerjakan Tugas | Hasil | Output |
-|---|---|---|---|---|---|
 | 1 | True | True | True | True | Mahasiswa BOLEH mengikuti ujian |
 | 2 | True | True | False | False | Mahasiswa TIDAK BOLEH mengikuti ujian |
 | 3 | True | False | True | False | Mahasiswa TIDAK BOLEH mengikuti ujian |
@@ -31,7 +28,6 @@
 ## Tabel Percobaan 4 — Akses Fasilitas Kampus
 
 | No | Mahasiswa | Dosen | Hasil | Output |
-|---|---|---|---|---|
 | 1 | True | False | True | Diperbolehkan masuk |
 | 2 | False | True | True | Diperbolehkan masuk |
 | 3 | True | True | True | Diperbolehkan masuk |
@@ -41,7 +37,6 @@
 ## Tabel Percobaan 5 — Mendapatkan Bantuan Akademik
 
 | No | Kartu Mahasiswa | Surat Izin | Hasil | Output |
-|---|---|---|---|---|
 | 1 | True | False | True | Dapat menerima bantuan akademik |
 | 2 | False | True | True | Dapat menerima bantuan akademik |
 | 3 | True | True | True | Dapat menerima bantuan akademik |
@@ -51,7 +46,6 @@
 ## Tabel Percobaan 6 — Akses Ruang Komputer
 
 | No | Mahasiswa TI | Asisten Lab | Hasil | Output |
-|---|---|---|---|---|
 | 1 | True | False | True | Boleh menggunakan komputer |
 | 2 | False | True | True | Boleh menggunakan komputer |
 | 3 | True | True | True | Boleh menggunakan komputer |
@@ -61,7 +55,6 @@
 ## Tabel Percobaan 7 — Memilih Jenis Kegiatan
 
 | No | Kuliah Online | Kuliah Offline | Hasil XOR | Output |
-|---|---|---|---|---|
 | 1 | True | False | True | Pilihan kegiatan VALID |
 | 2 | False | True | True | Pilihan kegiatan VALID |
 | 3 | True | True | False | Pilihan kegiatan TIDAK VALID |
@@ -71,7 +64,6 @@
 ## Tabel Percobaan 8 — Metode Pembayaran
 
 | No | Tunai | Transfer | Hasil XOR | Output |
-|---|---|---|---|---|
 | 1 | True | False | True | Metode pembayaran VALID |
 | 2 | False | True | True | Metode pembayaran VALID |
 | 3 | True | True | False | Pilih salah satu metode pembayaran |
