@@ -10,7 +10,7 @@
 
 ## Tabel Percobaan 2 — Kelulusan Praktikum
 
-| No | Hadir | Mengumpulkan Tugas | Nilai Praktikum | Hasil | Output
+| No | Hadir | Mengumpulkan Tugas | Nilai Praktikum | Hasil | Output |
 |---|---|---|---|---|---|
 | 1 | True | True | True | True  | Mahasiswa LULUS praktikum |
 | 2 | True | True | False | False | Mahasiswa TIDAK LULUS praktikum |
@@ -20,7 +20,7 @@
 
 ## Tabel Percobaan 3 — Persyaratan Mengikuti Ujian
 
-| No | Terdaftar | Hadir Minimal | Mengerjakan Tugas | Hasil | Output  
+| No | Terdaftar | Hadir Minimal | Mengerjakan Tugas | Hasil | Output | 
 |---|---|---|---|---|---|
 | 1 | True | True | True | True  | Mahasiswa BOLEH mengikuti ujian |
 | 2 | True | True | False | False | Mahasiswa TIDAK BOLEH mengikuti ujian |
@@ -50,7 +50,7 @@
 
 ## Tabel Percobaan 6 — Akses Ruang Komputer
 
-| No | Mahasiswa TI | Asisten Lab | Hasil | Output
+| No | Mahasiswa TI | Asisten Lab | Hasil | Output |
 |---|---|---|---|---|---|
 | 1 | True | False | True | Boleh menggunakan komputer |
 | 2 | False | True | True | Boleh menggunakan komputer |
@@ -60,7 +60,7 @@
 
 ## Tabel Percobaan 7 — Memilih Jenis Kegiatan
 
-| No | Kuliah Online | Kuliah Offline | Hasil XOR | Output 
+| No | Kuliah Online | Kuliah Offline | Hasil XOR | Output |
 |---|---|---|---|---|---|
 | 1 | True | False | True | Pilihan kegiatan VALID |
 | 2 | False | True | True | Pilihan kegiatan VALID |
@@ -70,7 +70,7 @@
 
 ## Tabel Percobaan 8 — Metode Pembayaran
 
-| No | Tunai | Transfer | Hasil XOR | Output
+| No | Tunai | Transfer | Hasil XOR | Output |
 |---|---|---|---|---|---|
 | 1 | True | False | True | Metode pembayaran VALID |
 | 2 | False | True | True | Metode pembayaran VALID |
