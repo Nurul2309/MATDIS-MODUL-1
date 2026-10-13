@@ -1,78 +1,65 @@
-## Tabel Percobaan 1 — Seleksi Beasiswa
-
-| No | Aktif | Nilai Baik | Tidak Melanggar | Hasil | Output |
-|---|---|---|---|---|---|
-| 1 | True | True | True | True  | Mahasiswa LULUS beasiswa |
-| 2 | True | True | False | False | Mahasiswa TIDAK LULUS beasiswa |
-| 3 | True | False | True | False | Mahasiswa TIDAK LULUS beasiswa |
-| 4 | False | True | True | False | Mahasiswa TIDAK LULUS beasiswa |
-
-
-## Tabel Percobaan 2 — Kelulusan Praktikum
-
-| No | Hadir | Mengumpulkan Tugas | Nilai Praktikum | Hasil | Output |
-|---|---|---|---|---|---|
-| 1 | True | True | True | True  | Mahasiswa LULUS praktikum |
-| 2 | True | True | False | False | Mahasiswa TIDAK LULUS praktikum |
-| 3 | True | False | True | False | Mahasiswa TIDAK LULUS praktikum |
-| 4 | False | True | True | False | Mahasiswa TIDAK LULUS praktikum |
+## TABEL KEBENARAN 1 — PEMERIKSAAN BEASISWA (AND)
+No | Aktif | Nilai baik | Tidak melanggar | Hasil
+1  |   T   |     T      |        T        | Lulus beasiswa
+2  |   T   |     T      |        F        | Tidak lulus
+3  |   T   |     F      |        T        | Tidak lulus
+4  |   F   |     T      |        T        | Tidak lulus
+5  |   F   |     F      |        F        | Tidak lulus
 
 
-## Tabel Percobaan 3 — Persyaratan Mengikuti Ujian
-
-| No | Terdaftar | Hadir Minimal | Mengerjakan Tugas | Hasil | Output | 
-|---|---|---|---|---|---|
-| 1 | True | True | True | True  | Mahasiswa BOLEH mengikuti ujian |
-| 2 | True | True | False | False | Mahasiswa TIDAK BOLEH mengikuti ujian |
-| 3 | True | False | True | False | Mahasiswa TIDAK BOLEH mengikuti ujian |
-| 4 | False | True | True | False | Mahasiswa TIDAK BOLEH mengikuti ujian |
-
-
-## Tabel Percobaan 4 — Akses Fasilitas Kampus
-
-| No | Mahasiswa | Dosen | Hasil | Output |
-|---|---|---|---|---|---|
-| 1 | True | False | True  | Diperbolehkan masuk |
-| 2 | False | True  | True  | Diperbolehkan masuk |
-| 3 | True | True  | True  | Diperbolehkan masuk |
-| 4 | False | False | False | Tidak diperbolehkan masuk |
+## TABEL KEBENARAN 2 — KELULUSAN PRAKTIKUM (AND)
+No | Hadir | Mengumpulkan tugas | Nilai praktikum | Hasil
+1  |   T   |         T          |        T        | Lulus praktikum
+2  |   T   |         T          |        F        | Tidak lulus
+3  |   T   |         F          |        T        | Tidak lulus
+4  |   F   |         T          |        T        | Tidak lulus
+5  |   F   |         F          |        F        | Tidak lulus
 
 
-## Tabel Percobaan 5 — Mendapatkan Bantuan Akademik
-
-| No | Kartu Mahasiswa | Surat Izin | Hasil | Output |
-|---|---|---|---|---|---|
-| 1 | True | False | True | Dapat menerima bantuan akademik |
-| 2 | False | True | True | Dapat menerima bantuan akademik |
-| 3 | True | True | True | Dapat menerima bantuan akademik |
-| 4 | False | False | False | Tidak dapat menerima bantuan akademik |
-
-
-## Tabel Percobaan 6 — Akses Ruang Komputer
-
-| No | Mahasiswa TI | Asisten Lab | Hasil | Output |
-|---|---|---|---|---|---|
-| 1 | True | False | True | Boleh menggunakan komputer |
-| 2 | False | True | True | Boleh menggunakan komputer |
-| 3 | True | True | True | Boleh menggunakan komputer |
-| 4 | False | False | False | Tidak boleh menggunakan komputer |
+## TABEL KEBENARAN 3 — SYARAT MENGIKUTI UJIAN (AND)
+No | Terdaftar | Hadir minimal | Mengerjakan tugas | Hasil
+1  |     T     |       T       |         T         | Boleh mengikuti ujian
+2  |     T     |       T       |         F         | Tidak boleh ujian
+3  |     T     |       F       |         T         | Tidak boleh ujian
+4  |     F     |       T       |         T         | Tidak boleh ujian
+5  |     F     |       F       |         F         | Tidak boleh ujian
 
 
-## Tabel Percobaan 7 — Memilih Jenis Kegiatan
-
-| No | Kuliah Online | Kuliah Offline | Hasil XOR | Output |
-|---|---|---|---|---|---|
-| 1 | True | False | True | Pilihan kegiatan VALID |
-| 2 | False | True | True | Pilihan kegiatan VALID |
-| 3 | True | True | False | Pilihan kegiatan TIDAK VALID |
-| 4 | False | False | False | Pilihan kegiatan TIDAK VALID |
+## TABEL KEBENARAN 4 — IZIN MASUK (OR)
+No | Mahasiswa | Dosen | Hasil
+1  |     T     |   F   | Diperbolehkan masuk
+2  |     F     |   T   | Diperbolehkan masuk
+3  |     T     |   T   | Diperbolehkan masuk
+4  |     F     |   F   | Tidak diperbolehkan masuk
 
 
-## Tabel Percobaan 8 — Metode Pembayaran
+## TABEL KEBENARAN 5 — PENGGUNAAN KOMPUTER (OR)
+No | Mahasiswa TI | Asisten lab | Hasil
+1  |      T       |      F      | Boleh menggunakan komputer
+2  |      F       |      T      | Boleh menggunakan komputer
+3  |      T       |      T      | Boleh menggunakan komputer
+4  |      F       |      F      | Tidak boleh menggunakan komputer
 
-| No | Tunai | Transfer | Hasil XOR | Output |
-|---|---|---|---|---|---|
-| 1 | True | False | True | Metode pembayaran VALID |
-| 2 | False | True | True | Metode pembayaran VALID |
-| 3 | True | True | False | Pilih salah satu metode pembayaran |
-| 4 | False | False | False | Pilih salah satu metode pembayaran |
+
+## TABEL KEBENARAN 6 — REKOMENDASI BIDANG BELAJAR (OR)
+No | Tertarik pemrograman | Memiliki dasar pemrograman | Hasil
+1  |          T           |             F              | Direkomendasikan belajar pemrograman
+2  |          F           |             T              | Direkomendasikan belajar pemrograman
+3  |          T           |             T              | Direkomendasikan belajar pemrograman
+4  |          F           |             F              | Cari bidang lain
+
+
+## TABEL KEBENARAN 7 — PILIHAN KEGIATAN KULIAH (XOR)
+No | Kuliah online | Kuliah offline | Hasil
+1  |       T       |       F        | Pilihan kegiatan VALID
+2  |       F       |       T        | Pilihan kegiatan VALID
+3  |       T       |       T        | Pilihan kegiatan TIDAK VALID
+4  |       F       |       F        | Pilihan kegiatan TIDAK VALID
+
+
+## TABEL KEBENARAN 8 — METODE PEMBAYARAN (XOR)
+No | Tunai | Transfer | Hasil
+1  |   T   |    F     | Metode pembayaran VALID
+2  |   F   |    T     | Metode pembayaran VALID
+3  |   T   |    T     | Pilih salah satu metode pembayaran
+4  |   F   |    F     | Pilih salah satu metode pembayaran
