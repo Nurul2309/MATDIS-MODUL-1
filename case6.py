@@ -1,9 +1,7 @@
-mahasiswa_ti = False
-asisten_lab = True
+for tertarik_pemrograman, memiliki_dasar_pemrograman in data_pengujian:
+    pilihan = tertarik_pemrograman or memiliki_dasar_pemrograman
 
-boleh_menggunakan = mahasiswa_ti or asisten_lab
-
-if boleh_menggunakan:
-    print("Boleh menggunakan komputer")
-else:
-    print("Tidak boleh menggunakan komputer")
+    if pilihan:
+        print("Direkomendasikan belajar pemrograman")
+    else:
+        print("Cari bidang lain")
